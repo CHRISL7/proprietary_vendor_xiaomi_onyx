@@ -11,6 +11,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onyx/proprietary/odm/etc/audio/hrtf5c.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/hrtf5c.bin \
     vendor/xiaomi/onyx/proprietary/odm/etc/audio/mis_head.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/mis_head.bin \
     vendor/xiaomi/onyx/proprietary/odm/etc/audio/mis_head_spatial.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/mis_head_spatial.bin \
+    vendor/xiaomi/onyx/proprietary/odm/etc/audio/mis_powerop_configs.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/mis_powerop_configs.bin \
     vendor/xiaomi/onyx/proprietary/odm/etc/audio/mis_spk.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/mis_spk.bin \
     vendor/xiaomi/onyx/proprietary/odm/etc/audio/mis_spk_spatial.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/mis_spk_spatial.bin \
     vendor/xiaomi/onyx/proprietary/odm/etc/audio/misound_karaoke_res.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/misound_karaoke_res.bin \
@@ -117,6 +118,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onyx/proprietary/odm/etc/camera/cameradfx_config.json:$(TARGET_COPY_OUT_ODM)/etc/camera/cameradfx_config.json \
     vendor/xiaomi/onyx/proprietary/odm/etc/camera/cameraopt.json:$(TARGET_COPY_OUT_ODM)/etc/camera/cameraopt.json \
     vendor/xiaomi/onyx/proprietary/odm/etc/camera/cameraopt_perf.json:$(TARGET_COPY_OUT_ODM)/etc/camera/cameraopt_perf.json \
+    vendor/xiaomi/onyx/proprietary/odm/etc/camera/camerascene.json:$(TARGET_COPY_OUT_ODM)/etc/camera/camerascene.json \
     vendor/xiaomi/onyx/proprietary/odm/etc/camera/camxoverridesettings.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/camxoverridesettings.txt \
     vendor/xiaomi/onyx/proprietary/odm/etc/camera/com.xiaomi.dcal.w_07.u_10.golden:$(TARGET_COPY_OUT_ODM)/etc/camera/com.xiaomi.dcal.w_07.u_10.golden \
     vendor/xiaomi/onyx/proprietary/odm/etc/camera/com.xiaomi.dcal.w_10.u_01.golden:$(TARGET_COPY_OUT_ODM)/etc/camera/com.xiaomi.dcal.w_10.u_01.golden \
@@ -836,8 +838,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onyx/proprietary/odm/etc/camera/xiaomi/thirdpartysnapshotjpeg.json:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/thirdpartysnapshotjpeg.json \
     vendor/xiaomi/onyx/proprietary/odm/etc/camera/xiaomi/watermark/MiSans-Demibold.ttf:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/MiSans-Demibold.ttf \
     vendor/xiaomi/onyx/proprietary/odm/etc/camera/xiaomi/watermark/MiSans-Medium.ttf:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/MiSans-Medium.ttf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/camera/xiaomi/watermark/Roboto-Bold.ttf:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/Roboto-Bold.ttf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/camera/xiaomi/watermark/Roboto-Medium.ttf:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/Roboto-Medium.ttf \
+    vendor/xiaomi/onyx/proprietary/odm/etc/camera/xiaomi/watermark/MiSans-Regular.ttf:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/MiSans-Regular.ttf \
+    vendor/xiaomi/onyx/proprietary/odm/etc/camera/xiaomi/watermark/MiSansArabicVF.ttf:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/MiSansArabicVF.ttf \
+    vendor/xiaomi/onyx/proprietary/odm/etc/camera/xiaomi/watermark/MiSansTibetanVF.ttf:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/MiSansTibetanVF.ttf \
+    vendor/xiaomi/onyx/proprietary/odm/etc/camera/xiaomi/watermark/Noto-COLRv1-emojicompat.ttf:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/Noto-COLRv1-emojicompat.ttf \
+    vendor/xiaomi/onyx/proprietary/odm/etc/camera/xiaomi/watermark/Oxanium-Medium.ttf:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/Oxanium-Medium.ttf \
     vendor/xiaomi/onyx/proprietary/odm/etc/camera/xiaomi/watermark/ic_cv_film_logo.png:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_cv_film_logo.png \
     vendor/xiaomi/onyx/proprietary/odm/etc/camera/xiaomi/watermark/ic_cv_film_logo_white.png:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_cv_film_logo_white.png \
     vendor/xiaomi/onyx/proprietary/odm/etc/camera/xiaomi/watermark/ic_cv_logo.png:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/watermark/ic_cv_logo.png \
@@ -943,6 +948,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onyx/proprietary/odm/etc/camera/xiaomismartaeconfig.json:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomismartaeconfig.json \
     vendor/xiaomi/onyx/proprietary/odm/etc/camera/xmi_slmt_4x_1080p.dlc:$(TARGET_COPY_OUT_ODM)/etc/camera/xmi_slmt_4x_1080p.dlc \
     vendor/xiaomi/onyx/proprietary/odm/etc/camera/xmi_slmt_4x_720p.dlc:$(TARGET_COPY_OUT_ODM)/etc/camera/xmi_slmt_4x_720p.dlc \
+    vendor/xiaomi/onyx/proprietary/odm/etc/cit_param_config.json:$(TARGET_COPY_OUT_ODM)/etc/cit_param_config.json \
     vendor/xiaomi/onyx/proprietary/odm/etc/df_default.xml:$(TARGET_COPY_OUT_ODM)/etc/df_default.xml \
     vendor/xiaomi/onyx/proprietary/odm/etc/disp0/mdss_dsi_o10u_36_02_0b_dsc_vid/cct_pcc.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o10u_36_02_0b_dsc_vid/cct_pcc.txt \
     vendor/xiaomi/onyx/proprietary/odm/etc/disp0/mdss_dsi_o10u_36_02_0b_dsc_vid/clstc/ClstcLut0.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o10u_36_02_0b_dsc_vid/clstc/ClstcLut0.txt \
@@ -1044,39 +1050,24 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onyx/proprietary/odm/etc/disp0/mdss_dsi_o10u_42_02_0a_dsc_vid/mi_gc_3.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_o10u_42_02_0a_dsc_vid/mi_gc_3.txt \
     vendor/xiaomi/onyx/proprietary/odm/etc/display/qdcm_calib_data_xiaomi_o10u_36_02_0b_video_mode_dsc_dsi_panel.json:$(TARGET_COPY_OUT_ODM)/etc/display/qdcm_calib_data_xiaomi_o10u_36_02_0b_video_mode_dsc_dsi_panel.json \
     vendor/xiaomi/onyx/proprietary/odm/etc/display/qdcm_calib_data_xiaomi_o10u_42_02_0a_video_mode_dsc_dsi_panel.json:$(TARGET_COPY_OUT_ODM)/etc/display/qdcm_calib_data_xiaomi_o10u_42_02_0a_video_mode_dsc_dsi_panel.json \
-    vendor/xiaomi/onyx/proprietary/odm/etc/dolby/dax-default-spatializer.xml:$(TARGET_COPY_OUT_ODM)/etc/dolby/dax-default-spatializer.xml \
-    vendor/xiaomi/onyx/proprietary/odm/etc/dolby/dax-default.xml:$(TARGET_COPY_OUT_ODM)/etc/dolby/dax-default.xml \
     vendor/xiaomi/onyx/proprietary/odm/etc/init.panel_info.sh:$(TARGET_COPY_OUT_ODM)/etc/init.panel_info.sh \
-    vendor/xiaomi/onyx/proprietary/odm/etc/init/android.hardware.authsecret-service.nxp.rc:$(TARGET_COPY_OUT_ODM)/etc/init/android.hardware.authsecret-service.nxp.rc \
-    vendor/xiaomi/onyx/proprietary/odm/etc/init/android.hardware.security.keymint-service.strongbox.nxp.rc:$(TARGET_COPY_OUT_ODM)/etc/init/android.hardware.security.keymint-service.strongbox.nxp.rc \
-    vendor/xiaomi/onyx/proprietary/odm/etc/init/android.hardware.weaver-service.nxp.rc:$(TARGET_COPY_OUT_ODM)/etc/init/android.hardware.weaver-service.nxp.rc \
-    vendor/xiaomi/onyx/proprietary/odm/etc/init/dvs-aidl-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/dvs-aidl-service.rc \
     vendor/xiaomi/onyx/proprietary/odm/etc/init/init.awinic.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.awinic.rc \
     vendor/xiaomi/onyx/proprietary/odm/etc/init/init.boled.lightsensor.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.boled.lightsensor.rc \
     vendor/xiaomi/onyx/proprietary/odm/etc/init/init.cirrus.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.cirrus.rc \
     vendor/xiaomi/onyx/proprietary/odm/etc/init/misensor_camera.rc:$(TARGET_COPY_OUT_ODM)/etc/init/misensor_camera.rc \
-    vendor/xiaomi/onyx/proprietary/odm/etc/init/nfc-service-nxp.rc:$(TARGET_COPY_OUT_ODM)/etc/init/nfc-service-nxp.rc \
     vendor/xiaomi/onyx/proprietary/odm/etc/init/vendor.xiaomi.hardware.mlipay-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.xiaomi.hardware.mlipay-service.rc \
     vendor/xiaomi/onyx/proprietary/odm/etc/init/vendor.xiaomi.hw.touchfeature-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.xiaomi.hw.touchfeature-service.rc \
     vendor/xiaomi/onyx/proprietary/odm/etc/init/vendor.xiaomi.sensor.citsensorservice.aidl.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.xiaomi.sensor.citsensorservice.aidl.rc \
     vendor/xiaomi/onyx/proprietary/odm/etc/izat_device.conf:$(TARGET_COPY_OUT_ODM)/etc/izat_device.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_ODM)/etc/libnfc-nci.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_ODM)/etc/libnfc-nxp.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/libnfc-nxp_RF.conf:$(TARGET_COPY_OUT_ODM)/etc/libnfc-nxp_RF.conf \
     vendor/xiaomi/onyx/proprietary/odm/etc/mdss_dsi_o10u_36_02_0b_dsc_vid_mi.xml:$(TARGET_COPY_OUT_ODM)/etc/mdss_dsi_o10u_36_02_0b_dsc_vid_mi.xml \
     vendor/xiaomi/onyx/proprietary/odm/etc/mdss_dsi_o10u_42_02_0a_dsc_vid_mi.xml:$(TARGET_COPY_OUT_ODM)/etc/mdss_dsi_o10u_42_02_0a_dsc_vid_mi.xml \
     vendor/xiaomi/onyx/proprietary/odm/etc/me_config.xml:$(TARGET_COPY_OUT_ODM)/etc/me_config.xml \
-    vendor/xiaomi/onyx/proprietary/odm/etc/permissions/android.hardware.hardware_keystore.jc-strongbox-keymint.nxp.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/android.hardware.hardware_keystore.jc-strongbox-keymint.nxp.xml \
     vendor/xiaomi/onyx/proprietary/odm/etc/sensors/config/ak7323.json:$(TARGET_COPY_OUT_ODM)/etc/sensors/config/ak7323.json \
-    vendor/xiaomi/onyx/proprietary/odm/etc/sensors/config/bonito_qsh_ble_0.json:$(TARGET_COPY_OUT_ODM)/etc/sensors/config/bonito_qsh_ble_0.json \
     vendor/xiaomi/onyx/proprietary/odm/etc/sensors/config/chre_dynamic_sensors.json:$(TARGET_COPY_OUT_ODM)/etc/sensors/config/chre_dynamic_sensors.json \
-    vendor/xiaomi/onyx/proprietary/odm/etc/sensors/config/eliza_qsh_ble_0.json:$(TARGET_COPY_OUT_ODM)/etc/sensors/config/eliza_qsh_ble_0.json \
     vendor/xiaomi/onyx/proprietary/odm/etc/sensors/config/json.lst:$(TARGET_COPY_OUT_ODM)/etc/sensors/config/json.lst \
     vendor/xiaomi/onyx/proprietary/odm/etc/sensors/config/lightSensorConfig.json:$(TARGET_COPY_OUT_ODM)/etc/sensors/config/lightSensorConfig.json \
     vendor/xiaomi/onyx/proprietary/odm/etc/sensors/config/lightSensorConfigSec.json:$(TARGET_COPY_OUT_ODM)/etc/sensors/config/lightSensorConfigSec.json \
     vendor/xiaomi/onyx/proprietary/odm/etc/sensors/config/pakala_ccd_base.json:$(TARGET_COPY_OUT_ODM)/etc/sensors/config/pakala_ccd_base.json \
-    vendor/xiaomi/onyx/proprietary/odm/etc/sensors/config/pakala_qsh_ble_0.json:$(TARGET_COPY_OUT_ODM)/etc/sensors/config/pakala_qsh_ble_0.json \
-    vendor/xiaomi/onyx/proprietary/odm/etc/sensors/config/qsh_ble.json:$(TARGET_COPY_OUT_ODM)/etc/sensors/config/qsh_ble.json \
     vendor/xiaomi/onyx/proprietary/odm/etc/sensors/config/qsh_camera_aon_front_i_1.json:$(TARGET_COPY_OUT_ODM)/etc/sensors/config/qsh_camera_aon_front_i_1.json \
     vendor/xiaomi/onyx/proprietary/odm/etc/sensors/config/qsh_camera_aon_front_ii_1.json:$(TARGET_COPY_OUT_ODM)/etc/sensors/config/qsh_camera_aon_front_ii_1.json \
     vendor/xiaomi/onyx/proprietary/odm/etc/sensors/config/qsh_camera_common.json:$(TARGET_COPY_OUT_ODM)/etc/sensors/config/qsh_camera_common.json \
@@ -1136,7 +1127,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onyx/proprietary/odm/etc/sensors/config/sns_tilt_to_wake.json:$(TARGET_COPY_OUT_ODM)/etc/sensors/config/sns_tilt_to_wake.json \
     vendor/xiaomi/onyx/proprietary/odm/etc/sensors/config/sns_transport_ppe.json:$(TARGET_COPY_OUT_ODM)/etc/sensors/config/sns_transport_ppe.json \
     vendor/xiaomi/onyx/proprietary/odm/etc/sixth_wrapper_cfg.xml:$(TARGET_COPY_OUT_ODM)/etc/sixth_wrapper_cfg.xml \
-    vendor/xiaomi/onyx/proprietary/odm/etc/surfaceflinger/dolby_vision.cfg:$(TARGET_COPY_OUT_ODM)/etc/surfaceflinger/dolby_vision.cfg \
     vendor/xiaomi/onyx/proprietary/odm/etc/thermal-4k.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-4k.conf \
     vendor/xiaomi/onyx/proprietary/odm/etc/thermal-arvr.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-arvr.conf \
     vendor/xiaomi/onyx/proprietary/odm/etc/thermal-boost.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-boost.conf \
@@ -1245,207 +1235,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onyx/proprietary/odm/etc/thermal-videochat.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-videochat.conf \
     vendor/xiaomi/onyx/proprietary/odm/etc/thermal-xingtie.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-xingtie.conf \
     vendor/xiaomi/onyx/proprietary/odm/etc/thermal-yuanshen.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-yuanshen.conf \
-    vendor/xiaomi/onyx/proprietary/odm/etc/thermalbreakboostconfig.xml:$(TARGET_COPY_OUT_ODM)/etc/thermalbreakboostconfig.xml \
     vendor/xiaomi/onyx/proprietary/odm/etc/touch/dynamicrate.json:$(TARGET_COPY_OUT_ODM)/etc/touch/dynamicrate.json \
     vendor/xiaomi/onyx/proprietary/odm/etc/touch/gameturbotool-control.json:$(TARGET_COPY_OUT_ODM)/etc/touch/gameturbotool-control.json \
     vendor/xiaomi/onyx/proprietary/odm/etc/touch/gameturbotool-fastinput.json:$(TARGET_COPY_OUT_ODM)/etc/touch/gameturbotool-fastinput.json \
     vendor/xiaomi/onyx/proprietary/odm/etc/touch/gameturbotool.json:$(TARGET_COPY_OUT_ODM)/etc/touch/gameturbotool.json \
     vendor/xiaomi/onyx/proprietary/odm/etc/usecaseKvManager.xml:$(TARGET_COPY_OUT_ODM)/etc/usecaseKvManager.xml \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/0_click_P_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/0_click_P_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/101_offlineCountdown_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/101_offlineCountdown_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/102_sceneBombInjury_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/102_sceneBombInjury_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/103_sceneBomb_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/103_sceneBomb_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/104_doorOpen_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/104_doorOpen_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/106_sceneStep_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/106_sceneStep_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/107_crawl_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/107_crawl_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/108_scopeOn_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/108_scopeOn_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/109_scopeOff_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/109_scopeOff_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/10_ringTone4_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/10_ringTone4_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/110_magazineQuick_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/110_magazineQuick_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/111_grenade_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/111_grenade_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/112_sceneGetshot_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/112_sceneGetshot_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/113_grenadeExplosion_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/113_grenadeExplosion_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/114_punch_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/114_punch_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/115_pan_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/115_pan_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/116_bandage_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/116_bandage_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/118_sceneJump_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/118_sceneJump_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/119_vehiclePlane_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/119_vehiclePlane_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/11_ringTone4_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/11_ringTone4_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/120_sceneOpenparachute_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/120_sceneOpenparachute_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/121_sceneCloseparachute_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/121_sceneCloseparachute_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/122_vehicleCollision_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/122_vehicleCollision_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/123_vehicleBuggy_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/123_vehicleBuggy_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/124_vehicleDacia_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/124_vehicleDacia_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/125_vehicleMoto_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/125_vehicleMoto_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/126_firearmsAkm_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/126_firearmsAkm_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/127_firearmsM16a4_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/127_firearmsM16a4_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/128_firearmsAwm_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/128_firearmsAwm_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/12_ringTone4_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/12_ringTone4_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/130_firearmsMini14_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/130_firearmsMini14_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/131_firearmsVss_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/131_firearmsVss_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/132_firearmsQbz_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/132_firearmsQbz_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/133_firearmsUmp9_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/133_firearmsUmp9_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/134_firearmsDp28_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/134_firearmsDp28_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/135_firearmsS1897_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/135_firearmsS1897_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/137_firearmsP18c_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/137_firearmsP18c_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/13_ringTone4_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/13_ringTone4_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/140_cfmKillOne_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/140_cfmKillOne_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/141_cfmHeadshot_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/141_cfmHeadshot_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/142_cfmMultiKill_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/142_cfmMultiKill_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/143_cfmKillOneStrong_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/143_cfmKillOneStrong_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/144_cfmHeadshotStrong_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/144_cfmHeadshotStrong_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/145_cfmMultiKillStrong_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/145_cfmMultiKillStrong_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/146_cfmWeaponGrenadeExplode_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/146_cfmWeaponGrenadeExplode_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/147_cfmWeaponGrenadeKillOne_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/147_cfmWeaponGrenadeKillOne_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/148_cfmImpactFleshNormal_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/148_cfmImpactFleshNormal_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/149_cfmWeaponC4Installed_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/149_cfmWeaponC4Installed_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/14_ringTone4_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/14_ringTone4_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/150_cfmHeroAppear_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/150_cfmHeroAppear_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/151_cfmUIRewardOpenBox_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/151_cfmUIRewardOpenBox_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/152_cfmUIRewardTask_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/152_cfmUIRewardTask_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/153_cfmWeaponBLTShoot_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/153_cfmWeaponBLTShoot_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/154_Atlantis_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/154_Atlantis_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/155_DigitalUniverse_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/155_DigitalUniverse_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/156_Reveries_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/156_Reveries_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/157_fodMotionTriang_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/157_fodMotionTriang_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/158_fodMotionFlare_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/158_fodMotionFlare_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/159_fodMotionRipple_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/159_fodMotionRipple_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/15_ringTone4_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/15_ringTone4_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/160_fodMotionSpiral_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/160_fodMotionSpiral_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/161_gameboxLaunch_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/161_gameboxLaunch_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/162_GestureBackPull_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/162_GestureBackPull_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/163_GestureBackRelease_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/163_GestureBackRelease_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/164_alert_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/164_alert_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/165_feedbackNegativeLight_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/165_feedbackNegativeLight_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/166_feedbackNeutral_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/166_feedbackNeutral_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/167_feedbackPositive_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/167_feedbackPositive_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/168_fingerprintRecord_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/168_fingerprintRecord_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/169_lockdown_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/169_lockdown_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/16_ringTone4_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/16_ringTone4_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/170_slidingDamping_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/170_slidingDamping_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/171_todoAlldone_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/171_todoAlldone_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/172_uninstallAnimationIcon_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/172_uninstallAnimationIcon_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/173_signalButtonHighlight_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/173_signalButtonHighlight_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/174_signalButtonNegative_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/174_signalButtonNegative_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/175_signalButton_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/175_signalButton_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/176_signalClockHigh_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/176_signalClockHigh_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/177_signalClock_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/177_signalClock_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/178_signalClockUnit_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/178_signalClockUnit_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/179_signalInputbox_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/179_signalInputbox_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/17_ringTone4_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/17_ringTone4_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/180_signalKeyHigh_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/180_signalKeyHigh_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/181_signalKeyUnit_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/181_signalKeyUnit_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/182_signalListHighlight_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/182_signalListHighlight_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/183_signalList_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/183_signalList_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/184_signalPicker_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/184_signalPicker_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/185_signalPopup_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/185_signalPopup_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/186_signalSeekbar_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/186_signalSeekbar_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/187_signalSwitch_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/187_signalSwitch_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/188_signalTab_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/188_signalTab_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/189_signalText_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/189_signalText_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/18_ringTone4_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/18_ringTone4_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/190_signalTransitionLight_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/190_signalTransitionLight_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/191_signalTransition_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/191_signalTransition_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/192_hapticsVideo_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/192_hapticsVideo_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/19_ringTone4_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/19_ringTone4_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/1_doubelClick_P_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/1_doubelClick_P_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/201_BoundaryBounce_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/201_BoundaryBounce_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/202_BoundaryBottom_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/202_BoundaryBottom_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/203_BoundaryTop_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/203_BoundaryTop_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/204_SlideTag_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/204_SlideTag_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/205_SuperPositive_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/205_SuperPositive_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/206_Positive_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/206_Positive_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/207_Negative_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/207_Negative_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/208_Mute_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/208_Mute_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/209_ScreenLock_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/209_ScreenLock_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/20_ringTone4_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/20_ringTone4_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/210_FingerprintUnlock_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/210_FingerprintUnlock_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/211_Charge_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/211_Charge_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/212_NotificationCleanup_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/212_NotificationCleanup_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/213_ProcessCleanup_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/213_ProcessCleanup_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/214_APPUninstallation_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/214_APPUninstallation_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/215_GameBoxStartup_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/215_GameBoxStartup_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/216_EdittingMode_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/216_EdittingMode_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/217_CameraShutter_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/217_CameraShutter_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/23_Candy_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/23_Candy_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/24_Carousel_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/24_Carousel_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/25_Celesta_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/25_Celesta_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/26_Childhood_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/26_Childhood_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/27_Country_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/27_Country_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/28_Cowboy_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/28_Cowboy_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/2_tick_P_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/2_tick_P_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/30_Fairyland_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/30_Fairyland_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/31_Fantasy_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/31_Fantasy_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/32_FieldTrip_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/32_FieldTrip_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/33_Glee_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/33_Glee_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/35_IceLatte_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/35_IceLatte_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/36_KungFu_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/36_KungFu_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/38_Lollipop_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/38_Lollipop_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/39_MiMix2_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/39_MiMix2_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/3_thud_P_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/3_thud_P_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/40_Mi_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/40_Mi_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/41_MiHouse_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/41_MiHouse_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/42_MiJazz_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/42_MiJazz_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/43_MiRemix_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/43_MiRemix_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/44_MountainSpring_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/44_MountainSpring_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/45_Orange_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/45_Orange_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/46_WindChime_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/46_WindChime_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/47_SpaceAge_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/47_SpaceAge_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/48_ToyRobot_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/48_ToyRobot_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/49_Vigor_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/49_Vigor_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/4_pop_P_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/4_pop_P_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/50_Bottle_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/50_Bottle_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/51_Bubble_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/51_Bubble_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/521_AcousticGuitar_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/521_AcousticGuitar_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/52_Bullfrog_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/52_Bullfrog_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/53_Burst_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/53_Burst_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/54_Chirp_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/54_Chirp_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/55_Clank_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/55_Clank_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/56_Crystal_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/56_Crystal_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/57_FadeIn_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/57_FadeIn_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/58_FadeOut_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/58_FadeOut_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/59_Flute_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/59_Flute_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/5_heavyClick_P_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/5_heavyClick_P_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/60_Fresh_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/60_Fresh_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/61_Frog_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/61_Frog_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/62_Guitar_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/62_Guitar_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/63_Harp_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/63_Harp_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/64_IncomingMessage_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/64_IncomingMessage_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/65_MessageSent_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/65_MessageSent_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/66_Moment_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/66_Moment_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/67_NotificationXylophone_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/67_NotificationXylophone_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/68_Potion_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/68_Potion_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/69_Radar_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/69_Radar_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/6_ringTone1_P_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/6_ringTone1_P_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/70_Spring_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/70_Spring_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/71_Swoosh_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/71_Swoosh_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/72_GestureUpSlide_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/72_GestureUpSlide_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/73_fodMotionPlanet_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/73_fodMotionPlanet_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/74_ChargeWire_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/74_ChargeWire_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/75_ChargeWireless_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/75_ChargeWireless_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/76_UnlockFailed_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/76_UnlockFailed_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/77_fodMotion1_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/77_fodMotion1_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/78_fodMotion2_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/78_fodMotion2_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/79_fodMotion3_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/79_fodMotion3_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/7_ringTone2_P_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/7_ringTone2_P_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/80_fodMotion4_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/80_fodMotion4_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/81_fodMotionAurora_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/81_fodMotionAurora_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/82_FaceIDWrong2_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/82_FaceIDWrong2_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/83_uninstallAnimation_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/83_uninstallAnimation_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/84_uninstallDialog_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/84_uninstallDialog_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/85_screenshot_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/85_screenshot_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/86_lockscreenCameraEntry_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/86_lockscreenCameraEntry_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/87_launcherEdit_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/87_launcherEdit_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/88_launcherIconSelection_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/88_launcherIconSelection_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/8_ringTone3_P_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/8_ringTone3_P_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/90_taskCleanAll_Rtp.bin:$(TARGET_COPY_OUT_ODM)/firmware/90_taskCleanAll_Rtp.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/91_newIconFolder_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/91_newIconFolder_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/92_notificationRemove_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/92_notificationRemove_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/93_notificationCleanall_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/93_notificationCleanall_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/96_nfcCard_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/96_nfcCard_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/98_nfcCardSlow_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/98_nfcCardSlow_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/99_POCO_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/99_POCO_RTP.bin \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/9_ringTone4_P_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/9_ringTone4_P_RTP.bin \
     vendor/xiaomi/onyx/proprietary/odm/firmware/CAMERA_ICP.b00:$(TARGET_COPY_OUT_ODM)/firmware/CAMERA_ICP.b00 \
     vendor/xiaomi/onyx/proprietary/odm/firmware/CAMERA_ICP.b01:$(TARGET_COPY_OUT_ODM)/firmware/CAMERA_ICP.b01 \
     vendor/xiaomi/onyx/proprietary/odm/firmware/CAMERA_ICP.b02:$(TARGET_COPY_OUT_ODM)/firmware/CAMERA_ICP.b02 \
@@ -1527,11 +1321,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onyx/proprietary/odm/firmware/o10u_nova_tm_thp_config.ini:$(TARGET_COPY_OUT_ODM)/firmware/o10u_nova_tm_thp_config.ini \
     vendor/xiaomi/onyx/proprietary/odm/firmware/sipa.bin:$(TARGET_COPY_OUT_ODM)/firmware/sipa.bin \
     vendor/xiaomi/onyx/proprietary/odm/firmware/vpu30_2v.mbn:$(TARGET_COPY_OUT_ODM)/firmware/vpu30_2v.mbn \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/vpu30_2v_unsigned.mbn:$(TARGET_COPY_OUT_ODM)/firmware/vpu30_2v_unsigned.mbn \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/vpu33_4v.mbn:$(TARGET_COPY_OUT_ODM)/firmware/vpu33_4v.mbn \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/vpu33_4v_unsigned.mbn:$(TARGET_COPY_OUT_ODM)/firmware/vpu33_4v_unsigned.mbn \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/vpu35_4v.mbn:$(TARGET_COPY_OUT_ODM)/firmware/vpu35_4v.mbn \
-    vendor/xiaomi/onyx/proprietary/odm/firmware/vpu35_4v_unsigned.mbn:$(TARGET_COPY_OUT_ODM)/firmware/vpu35_4v_unsigned.mbn \
     vendor/xiaomi/onyx/proprietary/odm/firmware/water_check.tflite:$(TARGET_COPY_OUT_ODM)/firmware/water_check.tflite \
     vendor/xiaomi/onyx/proprietary/odm/lib64/camera/aon_front_i_1.pb:$(TARGET_COPY_OUT_ODM)/lib64/camera/aon_front_i_1.pb \
     vendor/xiaomi/onyx/proprietary/odm/lib64/camera/com.qti.sensormodule.onyx_aac_ov08f_ultra_i.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensormodule.onyx_aac_ov08f_ultra_i.bin \
@@ -1544,17 +1333,14 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onyx/proprietary/odm/lib64/camera/com.qti.tuned.onyx_aac_ov20b40_front_i_in.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.onyx_aac_ov20b40_front_i_in.bin \
     vendor/xiaomi/onyx/proprietary/odm/lib64/camera/com.qti.tuned.onyx_ofilm_imx882_wide_i.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.onyx_ofilm_imx882_wide_i.bin \
     vendor/xiaomi/onyx/proprietary/odm/lib64/camera/com.qti.tuned.onyx_ofilm_imx882_wide_i_in.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.onyx_ofilm_imx882_wide_i_in.bin \
-    vendor/xiaomi/onyx/proprietary/odm/vendor/etc/dolby_vision.cfg:$(TARGET_COPY_OUT_ODM)/vendor/etc/dolby_vision.cfg \
-    vendor/xiaomi/onyx/proprietary/odm/vendor/persist/display/dolby_vision.cfg:$(TARGET_COPY_OUT_ODM)/vendor/persist/display/dolby_vision.cfg \
     vendor/xiaomi/onyx/proprietary/product/etc/permissions/privapp-permissions-hotword.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-hotword.xml \
-    vendor/xiaomi/onyx/proprietary/system/etc/sysconfig/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml \
     vendor/xiaomi/onyx/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml \
+    vendor/xiaomi/onyx/proprietary/vendor/bin/init.qcom.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qcom.sh \
+    vendor/xiaomi/onyx/proprietary/vendor/bin/system_dlkm_modprobe.sh:$(TARGET_COPY_OUT_VENDOR)/bin/system_dlkm_modprobe.sh \
+    vendor/xiaomi/onyx/proprietary/vendor/bin/vendor_modprobe.sh:$(TARGET_COPY_OUT_VENDOR)/bin/vendor_modprobe.sh \
     vendor/xiaomi/onyx/proprietary/vendor/data/model/seg_quantized.serialized.8750.pertensor_512_cls3r.bin:$(TARGET_COPY_OUT_VENDOR)/data/model/seg_quantized.serialized.8750.pertensor_512_cls3r.bin \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/1-SN1X0_SPC.txt:$(TARGET_COPY_OUT_VENDOR)/etc/1-SN1X0_SPC.txt \
     vendor/xiaomi/onyx/proprietary/vendor/etc/ASR_binary/Whisper/libQnnHtpV79Skel.so:$(TARGET_COPY_OUT_VENDOR)/etc/ASR_binary/Whisper/libQnnHtpV79Skel.so \
     vendor/xiaomi/onyx/proprietary/vendor/etc/ASR_binary/Whisper/speech_float.eai:$(TARGET_COPY_OUT_VENDOR)/etc/ASR_binary/Whisper/speech_float.eai \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/HapticsPolicy.xml:$(TARGET_COPY_OUT_VENDOR)/etc/HapticsPolicy.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/ITVDD.txt:$(TARGET_COPY_OUT_VENDOR)/etc/ITVDD.txt \
     vendor/xiaomi/onyx/proprietary/vendor/etc/acdbdata/haptics_data/click.pcm:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/haptics_data/click.pcm \
     vendor/xiaomi/onyx/proprietary/vendor/etc/acdbdata/haptics_data/double_click.pcm:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/haptics_data/double_click.pcm \
     vendor/xiaomi/onyx/proprietary/vendor/etc/acdbdata/haptics_data/heavy_click.pcm:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/haptics_data/heavy_click.pcm \
@@ -1577,12 +1363,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onyx/proprietary/vendor/etc/apdr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/apdr.conf \
     vendor/xiaomi/onyx/proprietary/vendor/etc/audio_cloud_control_white_list.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_cloud_control_white_list.xml \
     vendor/xiaomi/onyx/proprietary/vendor/etc/audio_diag.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/audio_diag.cfg \
+    vendor/xiaomi/onyx/proprietary/vendor/etc/bpf/cameraBpfGpl.o:$(TARGET_COPY_OUT_VENDOR)/etc/bpf/cameraBpfGpl.o \
+    vendor/xiaomi/onyx/proprietary/vendor/etc/bpf/qmsUidStats.o:$(TARGET_COPY_OUT_VENDOR)/etc/bpf/qmsUidStats.o \
     vendor/xiaomi/onyx/proprietary/vendor/etc/camera/cameraopt_perf.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/cameraopt_perf.json \
     vendor/xiaomi/onyx/proprietary/vendor/etc/camera/cameraopt_vendor.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/cameraopt_vendor.json \
     vendor/xiaomi/onyx/proprietary/vendor/etc/card-defs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/card-defs.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/charger_diag.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/charger_diag.cfg \
     vendor/xiaomi/onyx/proprietary/vendor/etc/charger_fw_fstab.qti:$(TARGET_COPY_OUT_VENDOR)/etc/charger_fw_fstab.qti \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/chre/preloaded_nanoapps.json:$(TARGET_COPY_OUT_VENDOR)/etc/chre/preloaded_nanoapps.json \
     vendor/xiaomi/onyx/proprietary/vendor/etc/clstc_config_library.xml:$(TARGET_COPY_OUT_VENDOR)/etc/clstc_config_library.xml \
     vendor/xiaomi/onyx/proprietary/vendor/etc/cne/mwqem.conf:$(TARGET_COPY_OUT_VENDOR)/etc/cne/mwqem.conf \
     vendor/xiaomi/onyx/proprietary/vendor/etc/cne/profileMwqem.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/profileMwqem.xml \
@@ -1615,12 +1401,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onyx/proprietary/vendor/etc/cne/wqeclient/VZW/VZW_profile5.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/VZW/VZW_profile5.xml \
     vendor/xiaomi/onyx/proprietary/vendor/etc/cne/wqeclient/VZW/VZW_profile6.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/VZW/VZW_profile6.xml \
     vendor/xiaomi/onyx/proprietary/vendor/etc/cne/wqeclient/VZW/VZW_profile7.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/VZW/VZW_profile7.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/configstore/wigig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/configstore/wigig.xml \
     vendor/xiaomi/onyx/proprietary/vendor/etc/data/dsi_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/dsi_config.xml \
     vendor/xiaomi/onyx/proprietary/vendor/etc/data/nicm_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/nicm_config.xml \
     vendor/xiaomi/onyx/proprietary/vendor/etc/data/tlpd_oem_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/tlpd_oem_config.xml \
     vendor/xiaomi/onyx/proprietary/vendor/etc/decoder.serialized.8750.O3.bin:$(TARGET_COPY_OUT_VENDOR)/etc/decoder.serialized.8750.O3.bin \
     vendor/xiaomi/onyx/proprietary/vendor/etc/default-permissions/com.qualcomm.qti.cne.xml:$(TARGET_COPY_OUT_VENDOR)/etc/default-permissions/com.qualcomm.qti.cne.xml \
+    vendor/xiaomi/onyx/proprietary/vendor/etc/default-permissions/vendor.qti.data.txpwradmin.xml:$(TARGET_COPY_OUT_VENDOR)/etc/default-permissions/vendor.qti.data.txpwradmin.xml \
     vendor/xiaomi/onyx/proprietary/vendor/etc/display/DPU1010.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/DPU1010.xml \
     vendor/xiaomi/onyx/proprietary/vendor/etc/display/DPU10__.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/DPU10__.xml \
     vendor/xiaomi/onyx/proprietary/vendor/etc/display/DPU11__.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/DPU11__.xml \
@@ -1636,6 +1422,14 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onyx/proprietary/vendor/etc/display/formats.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/formats.json \
     vendor/xiaomi/onyx/proprietary/vendor/etc/display/graphics_alignments.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/graphics_alignments.json \
     vendor/xiaomi/onyx/proprietary/vendor/etc/display/pipe_config_DPU11__.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/pipe_config_DPU11__.xml \
+    vendor/xiaomi/onyx/proprietary/vendor/etc/display/sdm_display_resolution_extn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/sdm_display_resolution_extn.xml \
+    vendor/xiaomi/onyx/proprietary/vendor/etc/display/sm8735p_sr_2x_y1280x720.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/display/sm8735p_sr_2x_y1280x720.dlc \
+    vendor/xiaomi/onyx/proprietary/vendor/etc/display/sm8735p_sr_2x_y720x1280.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/display/sm8735p_sr_2x_y720x1280.dlc \
+    vendor/xiaomi/onyx/proprietary/vendor/etc/display/sm8735p_sr_3x_y544x960.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/display/sm8735p_sr_3x_y544x960.dlc \
+    vendor/xiaomi/onyx/proprietary/vendor/etc/display/sm8735p_sr_3x_y960x544.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/display/sm8735p_sr_3x_y960x544.dlc \
+    vendor/xiaomi/onyx/proprietary/vendor/etc/display/sm8735p_sr_4x_y544x544.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/display/sm8735p_sr_4x_y544x544.dlc \
+    vendor/xiaomi/onyx/proprietary/vendor/etc/display/sm8735p_sr_5x_y384x640.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/display/sm8735p_sr_5x_y384x640.dlc \
+    vendor/xiaomi/onyx/proprietary/vendor/etc/display/sm8735p_sr_5x_y640x384.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/display/sm8735p_sr_5x_y640x384.dlc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/display/sm8750_sr_1x_y1280x720.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/display/sm8750_sr_1x_y1280x720.dlc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/display/sm8750_sr_1x_y544x960.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/display/sm8750_sr_1x_y544x960.dlc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/display/sm8750_sr_1x_y720x1280.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/display/sm8750_sr_1x_y720x1280.dlc \
@@ -1649,10 +1443,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onyx/proprietary/vendor/etc/display/thermallevel_to_fps.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/thermallevel_to_fps.xml \
     vendor/xiaomi/onyx/proprietary/vendor/etc/display/ubwc_alignments.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/ubwc_alignments.json \
     vendor/xiaomi/onyx/proprietary/vendor/etc/display/video_alignments.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/video_alignments.json \
+    vendor/xiaomi/onyx/proprietary/vendor/etc/display/xiaomi_o1_38_0c_0b_cmd_mode_dsc_dsi_panel.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/xiaomi_o1_38_0c_0b_cmd_mode_dsc_dsi_panel.json \
     vendor/xiaomi/onyx/proprietary/vendor/etc/displayconfig/display_id_4630947173316895379.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630947173316895379.xml \
     vendor/xiaomi/onyx/proprietary/vendor/etc/displayconfig/display_id_4630947258895476883.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630947258895476883.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/dolby/dax-default-spatializer.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default-spatializer.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/dolby/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml \
+    vendor/xiaomi/onyx/proprietary/vendor/etc/displayconfig/display_layout_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_layout_configuration.xml \
     vendor/xiaomi/onyx/proprietary/vendor/etc/dpm_vndr/vendor.dpm.conf:$(TARGET_COPY_OUT_VENDOR)/etc/dpm_vndr/vendor.dpm.conf \
     vendor/xiaomi/onyx/proprietary/vendor/etc/encoder.serialized.8750.O3.bin:$(TARGET_COPY_OUT_VENDOR)/etc/encoder.serialized.8750.O3.bin \
     vendor/xiaomi/onyx/proprietary/vendor/etc/eva/facedetection/bias.dat:$(TARGET_COPY_OUT_VENDOR)/etc/eva/facedetection/bias.dat \
@@ -1668,25 +1462,21 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onyx/proprietary/vendor/etc/eva/facelandmark/weight_3_1.dat:$(TARGET_COPY_OUT_VENDOR)/etc/eva/facelandmark/weight_3_1.dat \
     vendor/xiaomi/onyx/proprietary/vendor/etc/eva/facelandmark/weight_3_2.dat:$(TARGET_COPY_OUT_VENDOR)/etc/eva/facelandmark/weight_3_2.dat \
     vendor/xiaomi/onyx/proprietary/vendor/etc/eva/itof/tuning_params_sensor_type_1.json:$(TARGET_COPY_OUT_VENDOR)/etc/eva/itof/tuning_params_sensor_type_1.json \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/excluded-input-devices.xml:$(TARGET_COPY_OUT_VENDOR)/etc/excluded-input-devices.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/getConfig.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/getConfig.pnscr \
     vendor/xiaomi/onyx/proprietary/vendor/etc/gpfspath_oem_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gpfspath_oem_config.xml \
     vendor/xiaomi/onyx/proprietary/vendor/etc/gps.conf:$(TARGET_COPY_OUT_VENDOR)/etc/gps.conf \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/hal_uuid_map_onyx.xml:$(TARGET_COPY_OUT_VENDOR)/etc/hal_uuid_map_onyx.xml \
+    vendor/xiaomi/onyx/proprietary/vendor/etc/gps_diag.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/gps_diag.cfg \
     vendor/xiaomi/onyx/proprietary/vendor/etc/hrtf5c.bin:$(TARGET_COPY_OUT_VENDOR)/etc/hrtf5c.bin \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/init/android.hardware.bluetooth@aidl-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@aidl-service-qti.rc \
+    vendor/xiaomi/onyx/proprietary/vendor/etc/init/android.hardware.bluetooth@aidl-service-qti-debug.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@aidl-service-qti-debug.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/android.hardware.drm@1.1-service.wfdhdcp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.1-service.wfdhdcp.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/android.hardware.gatekeeper-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper-service-qti.rc \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/init/android.hardware.media.c2-mi-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.media.c2-mi-service.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/android.hardware.secure_element-service.qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.secure_element-service.qti.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/android.hardware.security.keymint-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.security.keymint-service-qti.rc \
+    vendor/xiaomi/onyx/proprietary/vendor/etc/init/audiohalservice_qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/audiohalservice_qti.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/cnd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/cnd.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/dataadpl.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dataadpl.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/dataqti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dataqti.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/dcfd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dcfd.rc \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/init/dms-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dms-service.rc \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/init/feature_enabler_client.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/feature_enabler_client.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/hexlpservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hexlpservice.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/hlosminkdaemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hlosminkdaemon.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/hw/init.batterysecret.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.batterysecret.rc \
@@ -1696,13 +1486,14 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/imsdaemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/imsdaemon.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/init.embmssl_server.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.embmssl_server.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/init.qccvendor.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.qccvendor.rc \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/init/init.qti.display_boot.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.qti.display_boot.rc \
+    vendor/xiaomi/onyx/proprietary/vendor/etc/init/init.qlm-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.qlm-service.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/init.qti.media.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.qti.media.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/init.qti.qcv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.qti.qcv.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/init.time_daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.time_daemon.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/init.vendor.ins.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.ins.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/init.vendor.sensors.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.sensors.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/init_thermal-engine-v2.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init_thermal-engine-v2.rc \
+    vendor/xiaomi/onyx/proprietary/vendor/etc/init/libxiaomi_qcril.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/libxiaomi_qcril.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/loc-launcher.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/loc-launcher.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/nicmd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/nicmd.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/port-bridge.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/port-bridge.rc \
@@ -1710,19 +1501,18 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/qdcmss.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qdcmss.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/qesdk-manager.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qesdk-manager.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/qesdk-secmanager.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qesdk-secmanager.rc \
+    vendor/xiaomi/onyx/proprietary/vendor/etc/init/qguard.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qguard.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/qmipriod.debug.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qmipriod.debug.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/qmipriod.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qmipriod.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/qms.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qms.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/qseecomd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qseecomd.rc \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/init/qvrd_vndr.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qvrd_vndr.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/qwesd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qwesd.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/shsusrd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/shsusrd.rc \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/init/slad.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/slad.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/ssgtzd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ssgtzd.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/tlpd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/tlpd.rc \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/init/vendor.dolby.media.c2-default-service-dax.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.dolby.media.c2-default-service-dax.rc \
+    vendor/xiaomi/onyx/proprietary/vendor/etc/init/trusteduilistener.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/trusteduilistener.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/vendor.dpmd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.dpmd.rc \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/init/vendor.qsap.qapeservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qsap.qapeservice.rc \
+    vendor/xiaomi/onyx/proprietary/vendor/etc/init/vendor.qsap.location.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qsap.location.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/vendor.qsap.sensors.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qsap.sensors.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/vendor.qti.adsprpc-guestos-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.adsprpc-guestos-service.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/vendor.qti.audio-adsprpc-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.audio-adsprpc-service.rc \
@@ -1730,10 +1520,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/vendor.qti.cdsprpc-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.cdsprpc-service.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/vendor.qti.diag_userdebug.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.diag_userdebug.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/vendor.qti.hardware.capabilityconfigstore-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.capabilityconfigstore-service.rc \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/init/vendor.qti.hardware.display.allocator-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.display.allocator-service.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/vendor.qti.hardware.display.color-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.display.color-service.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/vendor.qti.hardware.display.composer-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.display.composer-service.rc \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/init/vendor.qti.hardware.display.demura-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.display.demura-service.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/vendor.qti.hardware.dsp-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.dsp-service.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/vendor.qti.hardware.minkipcbinder@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.minkipcbinder@1.0-service.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/vendor.qti.hardware.qseecom@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.qseecom@1.0-service.rc \
@@ -1743,61 +1531,29 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/vendor.qti.media.c2@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.media.c2@1.0-service.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/vendor.qti.media.c2audio@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.media.c2audio@1.0-service.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/vendor.qti.rmt_storage.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.rmt_storage.rc \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/init/vendor.qti.sla.service@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.sla.service@2.0-service.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/vendor.qti.smp2p.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.smp2p.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/vendor.qti.tftp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.tftp.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/vendor.sensors.qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.qti.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/vendor.sensors.sscrpcd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.sscrpcd.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/vendor.xiaomi.hardware.displayfeature_aidl-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.displayfeature_aidl-service.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/vendor.xiaomi.hardware.micharge-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.micharge-service.rc \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/init/vendor.xiaomi.hardware.vibratorfeature.service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.vibratorfeature.service.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/vppservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vppservice.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/init/wfdvndservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wfdvndservice.rc \
     vendor/xiaomi/onyx/proprietary/vendor/etc/kvh2xml.xml:$(TARGET_COPY_OUT_VENDOR)/etc/kvh2xml.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/libnfc-SN220_19_2MHZ.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-SN220_19_2MHZ.conf \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/libnfc-SN220_38_4MHZ.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-SN220_38_4MHZ.conf \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/libnfc-SN300_38_4MHZ.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-SN300_38_4MHZ.conf \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/libnfc-mtp-SN100.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-mtp-SN100.conf \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/libnfc-mtp-SN100_38_4MHZ.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-mtp-SN100_38_4MHZ.conf \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/libnfc-nxp-pnscr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp-pnscr.conf \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/libnfc-qrd-SN100.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-qrd-SN100.conf \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/libnfc-qrd-SN100_38_4MHZ.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-qrd-SN100_38_4MHZ.conf \
+    vendor/xiaomi/onyx/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
+    vendor/xiaomi/onyx/proprietary/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
     vendor/xiaomi/onyx/proprietary/vendor/etc/lowi.conf:$(TARGET_COPY_OUT_VENDOR)/etc/lowi.conf \
     vendor/xiaomi/onyx/proprietary/vendor/etc/media_codecs_c2_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_c2_audio.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/media_codecs_dolby_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_dolby_audio.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/media_codecs_mi_c2_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_mi_c2_audio.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/media_codecs_performance_tuna_v0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance_tuna_v0.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/media_codecs_performance_tuna_v0_without_dvenc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance_tuna_v0_without_dvenc.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/media_codecs_tuna_v0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_tuna_v0.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/media_codecs_tuna_v0_without_dvenc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_tuna_v0_without_dvenc.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/media_profiles_tuna_v0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_tuna_v0.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/media_tuna_v0/video_system_specs.json:$(TARGET_COPY_OUT_VENDOR)/etc/media_tuna_v0/video_system_specs.json \
     vendor/xiaomi/onyx/proprietary/vendor/etc/models/acd/environment.eai:$(TARGET_COPY_OUT_VENDOR)/etc/models/acd/environment.eai \
     vendor/xiaomi/onyx/proprietary/vendor/etc/models/acd/event.eai:$(TARGET_COPY_OUT_VENDOR)/etc/models/acd/event.eai \
     vendor/xiaomi/onyx/proprietary/vendor/etc/models/acd/music.eai:$(TARGET_COPY_OUT_VENDOR)/etc/models/acd/music.eai \
     vendor/xiaomi/onyx/proprietary/vendor/etc/models/acd/speech.eai:$(TARGET_COPY_OUT_VENDOR)/etc/models/acd/speech.eai \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/nfcon.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/nfcon.pnscr \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/perf/avcsysnodesconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/avcsysnodesconfigs.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/perf/commonresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/commonresourceconfigs.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/perf/commonsysnodesconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/commonsysnodesconfigs.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/perf/perfboostsconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfboostsconfig.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/perf/perfboostselection.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfboostselection.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/perf/perfconfigstore.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfconfigstore.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/perf/targetavcsysnodesconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetavcsysnodesconfigs.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/perf/targetconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetconfig.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/perf/targetresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetresourceconfigs.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/perf/targetsysnodesconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetsysnodesconfigs.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/perf/testcommonresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/testcommonresourceconfigs.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/perf/testtargetresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/testtargetresourceconfigs.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/perf/thermal-boost.conf:$(TARGET_COPY_OUT_VENDOR)/etc/perf/thermal-boost.conf \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/perf/thermalbreakboostconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/thermalbreakboostconfig.xml \
+    vendor/xiaomi/onyx/proprietary/vendor/etc/permissions/android.hardware.telephony.satellite.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.telephony.satellite.xml \
     vendor/xiaomi/onyx/proprietary/vendor/etc/permissions/camera_extensions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/camera_extensions.xml \
     vendor/xiaomi/onyx/proprietary/vendor/etc/permissions/com.android.se.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.android.se.xml \
     vendor/xiaomi/onyx/proprietary/vendor/etc/permissions/noRil/apq_excluded_telephony_features.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/noRil/apq_excluded_telephony_features.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/permissions/vendor.hardware.vibratorfeature-permission.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/vendor.hardware.vibratorfeature-permission.xml \
     vendor/xiaomi/onyx/proprietary/vendor/etc/permissions/vendor.qti.dcf.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/vendor.qti.dcf.xml \
     vendor/xiaomi/onyx/proprietary/vendor/etc/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/qcril_database/qcrilNr.db:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/qcrilNr.db \
     vendor/xiaomi/onyx/proprietary/vendor/etc/qcril_database/upgrade/config/0006.0_config.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/config/0006.0_config.sql \
     vendor/xiaomi/onyx/proprietary/vendor/etc/qcril_database/upgrade/config/0007.0_config.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/config/0007.0_config.sql \
     vendor/xiaomi/onyx/proprietary/vendor/etc/qcril_database/upgrade/config/0008.0_config.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/config/0008.0_config.sql \
@@ -1824,23 +1580,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onyx/proprietary/vendor/etc/qcril_database/upgrade/other/0013_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/other/0013_version_update_ecc_table.sql \
     vendor/xiaomi/onyx/proprietary/vendor/etc/qcril_database/upgrade/other/0014_version_update_modules.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/other/0014_version_update_modules.sql \
     vendor/xiaomi/onyx/proprietary/vendor/etc/qcril_database/upgrade/other/0015_version_add_iccid_clir_pref_table.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/other/0015_version_add_iccid_clir_pref_table.sql \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/qvr/cfg/519/0/65536/mtpkailua.txt:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/519/0/65536/mtpkailua.txt \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/qvr/cfg/519/0/65536/mtpkailua_6dof_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/519/0/65536/mtpkailua_6dof_config.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/qvr/cfg/519/0/65536/mtpkailua_qvr_3dof_tracker_config.txt:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/519/0/65536/mtpkailua_qvr_3dof_tracker_config.txt \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/qvr/cfg/557/0/65536/mtplanai.txt:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/557/0/65536/mtplanai.txt \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/qvr/cfg/557/0/65536/mtplanai_6dof_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/557/0/65536/mtplanai_6dof_config.xml \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/qvr/cfg/557/0/65536/mtplanai_qvr_3dof_tracker_config.txt:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/cfg/557/0/65536/mtplanai_qvr_3dof_tracker_config.txt \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/qvr/qvr_hid_device_list.txt:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/qvr_hid_device_list.txt \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/qvr/qvr_usb_device_list.txt:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/qvr_usb_device_list.txt \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/qvr/qvrservice_config.txt:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/qvrservice_config.txt \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/read_vddpa.txt:$(TARGET_COPY_OUT_VENDOR)/etc/read_vddpa.txt \
+    vendor/xiaomi/onyx/proprietary/vendor/etc/qguard.json:$(TARGET_COPY_OUT_VENDOR)/etc/qguard.json \
     vendor/xiaomi/onyx/proprietary/vendor/etc/sap.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sap.conf \
     vendor/xiaomi/onyx/proprietary/vendor/etc/sec_config:$(TARGET_COPY_OUT_VENDOR)/etc/sec_config \
     vendor/xiaomi/onyx/proprietary/vendor/etc/seccomp_policy/atfwd@2.0.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/atfwd@2.0.policy \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/seccomp_policy/c2audio.vendor.base-arm.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/c2audio.vendor.base-arm.policy \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/seccomp_policy/c2audio.vendor.base-arm64.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/c2audio.vendor.base-arm64.policy \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/seccomp_policy/c2audio.vendor.ext-arm.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/c2audio.vendor.ext-arm.policy \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/seccomp_policy/c2audio.vendor.ext-arm64.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/c2audio.vendor.ext-arm64.policy \
     vendor/xiaomi/onyx/proprietary/vendor/etc/seccomp_policy/codec2.vendor.base-arm64.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/codec2.vendor.base-arm64.policy \
     vendor/xiaomi/onyx/proprietary/vendor/etc/seccomp_policy/codec2.vendor.ext-arm64.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/codec2.vendor.ext-arm64.policy \
     vendor/xiaomi/onyx/proprietary/vendor/etc/seccomp_policy/gnss@2.0-base.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/gnss@2.0-base.policy \
@@ -1854,11 +1597,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onyx/proprietary/vendor/etc/seccomp_policy/qesdksec.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qesdksec.policy \
     vendor/xiaomi/onyx/proprietary/vendor/etc/seccomp_policy/qms.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qms.policy \
     vendor/xiaomi/onyx/proprietary/vendor/etc/seccomp_policy/qsap_dcfd.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qsap_dcfd.policy \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/seccomp_policy/qsap_qapeservice.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qsap_qapeservice.policy \
     vendor/xiaomi/onyx/proprietary/vendor/etc/seccomp_policy/qsap_sensors.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qsap_sensors.policy \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/seccomp_policy/qsap_voiceui.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qsap_voiceui.policy \
     vendor/xiaomi/onyx/proprietary/vendor/etc/seccomp_policy/qti-systemd.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qti-systemd.policy \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/seccomp_policy/qvr@2.0.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qvr@2.0.policy \
     vendor/xiaomi/onyx/proprietary/vendor/etc/seccomp_policy/qwesd@2.0.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qwesd@2.0.policy \
     vendor/xiaomi/onyx/proprietary/vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/vendor.qti.hardware.dsp.policy \
     vendor/xiaomi/onyx/proprietary/vendor/etc/seccomp_policy/wfdhdcphalservice.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/wfdhdcphalservice.policy \
@@ -1868,30 +1608,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onyx/proprietary/vendor/etc/sensors/config/chre_dynamic_sensors.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/chre_dynamic_sensors.json \
     vendor/xiaomi/onyx/proprietary/vendor/etc/sensors/config/qsh_camera_common_sm8735.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/qsh_camera_common_sm8735.json \
     vendor/xiaomi/onyx/proprietary/vendor/etc/sensors/config/qsh_camera_ov32c4c_4_sm8735.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/qsh_camera_ov32c4c_4_sm8735.json \
+    vendor/xiaomi/onyx/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
     vendor/xiaomi/onyx/proprietary/vendor/etc/sensors/javalibs/odpmanagerlib-aar:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/javalibs/odpmanagerlib-aar \
     vendor/xiaomi/onyx/proprietary/vendor/etc/sensors/sns_odp_config:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sns_odp_config \
     vendor/xiaomi/onyx/proprietary/vendor/etc/sensors/sns_reg_config:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sns_reg_config \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/sla/slad.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sla/slad.conf \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/sn100u_bootup.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_bootup.pnscr \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/sn100u_ese_disableIso.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_ese_disableIso.pnscr \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/sn100u_ese_disableIsoRead.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_ese_disableIsoRead.pnscr \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/sn100u_nfcon.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_nfcon.pnscr \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/sn100u_pnx_chr.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_pnx_chr.pnscr \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/sn100u_pnx_cui.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_pnx_cui.pnscr \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/sn100u_pnx_ese_3.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_pnx_ese_3.pnscr \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/sn100u_pnx_ese_3_hce.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_pnx_ese_3_hce.pnscr \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/sn100u_pnx_ese_aclog.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_pnx_ese_aclog.pnscr \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/sn100u_pnx_ese_cplc.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_pnx_ese_cplc.pnscr \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/sn100u_pnx_ese_fabkey.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_pnx_ese_fabkey.pnscr \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/sn100u_pnx_ese_free.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_pnx_ese_free.pnscr \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/sn100u_pnx_ese_keyset.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_pnx_ese_keyset.pnscr \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/sn100u_pnx_ese_sei2c_disable.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_pnx_ese_sei2c_disable.pnscr \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/sn100u_pnx_ese_sei2c_enable.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_pnx_ese_sei2c_enable.pnscr \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/sn100u_pnx_ese_sei2c_read.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_pnx_ese_sei2c_read.pnscr \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/sn100u_pnx_ese_sn.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_pnx_ese_sn.pnscr \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/sn100u_pnx_ndi.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_pnx_ndi.pnscr \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/sn100u_pnx_pcv.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_pnx_pcv.pnscr \
-    vendor/xiaomi/onyx/proprietary/vendor/etc/sn100u_pnx_sst.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_pnx_sst.pnscr \
     vendor/xiaomi/onyx/proprietary/vendor/etc/snapdragon_color_libs_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/snapdragon_color_libs_config.xml \
     vendor/xiaomi/onyx/proprietary/vendor/etc/ssg/ta_config.json:$(TARGET_COPY_OUT_VENDOR)/etc/ssg/ta_config.json \
     vendor/xiaomi/onyx/proprietary/vendor/etc/ssg/tz_whitelist.json:$(TARGET_COPY_OUT_VENDOR)/etc/ssg/tz_whitelist.json \
@@ -1901,6 +1621,16 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onyx/proprietary/vendor/etc/thermal-map.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-map.conf \
     vendor/xiaomi/onyx/proprietary/vendor/etc/thermald-devices.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermald-devices.conf \
     vendor/xiaomi/onyx/proprietary/vendor/etc/wfdconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wfdconfig.xml \
+    vendor/xiaomi/onyx/proprietary/vendor/etc/wifi/kiwi_v2/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/kiwi_v2/WCNSS_qcom_cfg.ini \
+    vendor/xiaomi/onyx/proprietary/vendor/etc/wifi/models/qcom_game_latency_predict.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/models/qcom_game_latency_predict.dlc \
+    vendor/xiaomi/onyx/proprietary/vendor/etc/wifi/models/qcom_game_latency_predict_2.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/models/qcom_game_latency_predict_2.dlc \
+    vendor/xiaomi/onyx/proprietary/vendor/etc/wifi/models/qcom_qoe_predict.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/models/qcom_qoe_predict.dlc \
+    vendor/xiaomi/onyx/proprietary/vendor/etc/wifi/p2p_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant_overlay.conf \
+    vendor/xiaomi/onyx/proprietary/vendor/etc/wifi/peach/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/peach/WCNSS_qcom_cfg.ini \
+    vendor/xiaomi/onyx/proprietary/vendor/etc/wifi/peach_v2/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/peach_v2/WCNSS_qcom_cfg.ini \
+    vendor/xiaomi/onyx/proprietary/vendor/etc/wifi/vendor_cmd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/vendor_cmd.xml \
+    vendor/xiaomi/onyx/proprietary/vendor/etc/wifi/wpa_supplicant.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant.conf \
+    vendor/xiaomi/onyx/proprietary/vendor/etc/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf \
     vendor/xiaomi/onyx/proprietary/vendor/etc/xiaomi_ecc_list.xml:$(TARGET_COPY_OUT_VENDOR)/etc/xiaomi_ecc_list.xml \
     vendor/xiaomi/onyx/proprietary/vendor/etc/xiaomi_ecc_list_preference.xml:$(TARGET_COPY_OUT_VENDOR)/etc/xiaomi_ecc_list_preference.xml \
     vendor/xiaomi/onyx/proprietary/vendor/etc/xtwifi.conf:$(TARGET_COPY_OUT_VENDOR)/etc/xtwifi.conf \
@@ -1958,13 +1688,21 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onyx/proprietary/vendor/firmware/gen70900_aqe.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/gen70900_aqe.fw \
     vendor/xiaomi/onyx/proprietary/vendor/firmware/gen70900_sqe.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/gen70900_sqe.fw \
     vendor/xiaomi/onyx/proprietary/vendor/firmware/gen70900_zap.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/gen70900_zap.mbn \
+    vendor/xiaomi/onyx/proprietary/vendor/firmware/gen70e00_sqe.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/gen70e00_sqe.fw \
+    vendor/xiaomi/onyx/proprietary/vendor/firmware/gen70e00_zap.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/gen70e00_zap.mbn \
+    vendor/xiaomi/onyx/proprietary/vendor/firmware/gen71700_gmu.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gen71700_gmu.bin \
     vendor/xiaomi/onyx/proprietary/vendor/firmware/gen80000_aqe.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/gen80000_aqe.fw \
     vendor/xiaomi/onyx/proprietary/vendor/firmware/gen80000_gmu.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gen80000_gmu.bin \
     vendor/xiaomi/onyx/proprietary/vendor/firmware/gen80000_sqe.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/gen80000_sqe.fw \
+    vendor/xiaomi/onyx/proprietary/vendor/firmware/gen80600_gmu.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gen80600_gmu.bin \
     vendor/xiaomi/onyx/proprietary/vendor/firmware/gmu_gen70900.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gmu_gen70900.bin \
-    vendor/xiaomi/onyx/proprietary/vendor/gpu/kbc/sequence_manifest.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/sequence_manifest.bin \
+    vendor/xiaomi/onyx/proprietary/vendor/gpu/kbc/sequence_manifest_a730.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/sequence_manifest_a730.bin \
+    vendor/xiaomi/onyx/proprietary/vendor/gpu/kbc/unified_kbcs_32.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_kbcs_32.bin \
+    vendor/xiaomi/onyx/proprietary/vendor/gpu/kbc/unified_kbcs_32_a730.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_kbcs_32_a730.bin \
     vendor/xiaomi/onyx/proprietary/vendor/gpu/kbc/unified_kbcs_64.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_kbcs_64.bin \
+    vendor/xiaomi/onyx/proprietary/vendor/gpu/kbc/unified_kbcs_64_a730.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_kbcs_64_a730.bin \
     vendor/xiaomi/onyx/proprietary/vendor/gpu/kbc/unified_ksqs.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_ksqs.bin \
+    vendor/xiaomi/onyx/proprietary/vendor/gpu/kbc/unified_ksqs_a730.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_ksqs_a730.bin \
     vendor/xiaomi/onyx/proprietary/vendor/lib64/bm5a73v04s13n00.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/bm5a73v04s13n00.bin \
     vendor/xiaomi/onyx/proprietary/vendor/lib64/bm5a73v04s13n01.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/bm5a73v04s13n01.bin \
     vendor/xiaomi/onyx/proprietary/vendor/lib64/bm5a73v04s13n02.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/bm5a73v04s13n02.bin \
@@ -2164,11 +1902,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onyx/proprietary/vendor/lib64/camera/fdconfigvideo.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigvideo.bin \
     vendor/xiaomi/onyx/proprietary/vendor/lib64/camera/fdconfigvideolite.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigvideolite.bin \
     vendor/xiaomi/onyx/proprietary/vendor/lib64/camera/qfdserviceconfig.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/qfdserviceconfig.bin \
-    vendor/xiaomi/onyx/proprietary/vendor/lib64/libar-acdb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libar-acdb.so \
-    vendor/xiaomi/onyx/proprietary/vendor/lib64/libar-gpr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libar-gpr.so \
-    vendor/xiaomi/onyx/proprietary/vendor/lib64/libar-gsl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libar-gsl.so \
-    vendor/xiaomi/onyx/proprietary/vendor/lib64/libats.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libats.so \
-    vendor/xiaomi/onyx/proprietary/vendor/lib64/liblx-osal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblx-osal.so \
     vendor/xiaomi/onyx/proprietary/vendor/lib64/qsn1nrt430.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/qsn1nrt430.bin \
     vendor/xiaomi/onyx/proprietary/vendor/lib64/qsn1nrt43180.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/qsn1nrt43180.bin \
     vendor/xiaomi/onyx/proprietary/vendor/lib64/qsn1nrt43270.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/qsn1nrt43270.bin \
@@ -2186,13 +1919,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onyx/proprietary/vendor/lib64/qsn1rtlp430.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/qsn1rtlp430.bin \
     vendor/xiaomi/onyx/proprietary/vendor/lib64/qsn1rtlp43270.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/qsn1rtlp43270.bin \
     vendor/xiaomi/onyx/proprietary/vendor/lib64/qsn2all.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/qsn2all.bin \
-    vendor/xiaomi/onyx/proprietary/vendor/lib64/qsn3all.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/qsn3all.bin
+    vendor/xiaomi/onyx/proprietary/vendor/lib64/qsn3all.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/qsn3all.bin \
+    vendor/xiaomi/onyx/proprietary/vendor/libnfc-nxp_RF.conf:$(TARGET_COPY_OUT_VENDOR)/libnfc-nxp_RF.conf
 
 PRODUCT_PACKAGES += \
-    android.hardware.bluetooth.audio-impl_prebuilt \
-    android.hardware.security.keymint-V3-ndk_prebuilt \
-    android.hardware.vibrator-V1-ndk_prebuilt \
-    android.media.audio.common.types-V6-ndk \
+    android.hardware.bluetooth.audio-impl_onyx \
     btaudio_offload_if \
     com.mi.node.fd \
     com.mi.node.miaihighlight \
@@ -2388,8 +2119,7 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth.lmp_event-impl-qti \
     android.hardware.bluetooth@1.0-impl-qti \
     android.hardware.bluetooth@aidl-impl-qti \
-    android.hardware.gnss-aidl-impl-qtionyx \
-    android.hardware.graphics.mapper@4.0-impl-qti-display \
+    android.hardware.gnss-aidl-impl-qti_onyx \
     audio.bluetooth_qti.default \
     audio.primary.default \
     camera.qcom.sm8750 \
@@ -2402,6 +2132,7 @@ PRODUCT_PACKAGES += \
     libaudiocorehal.qti \
     libaudioeffecthal.qti \
     libqtigatekeeper \
+    libsoundtriggerhal.qti \
     mapper.qti \
     mbedtls_qti \
     vendor.qti.hardware.bluetooth.finder-impl-qti \
@@ -2428,6 +2159,7 @@ PRODUCT_PACKAGES += \
     lib-rtpcore \
     lib-rtpsl \
     libAF \
+    libAIHDIcon \
     libATFWD \
     libAlacSwDec \
     libApeSwDec \
@@ -2438,7 +2170,6 @@ PRODUCT_PACKAGES += \
     libDcfHalFramework \
     libDcfHalLogger \
     libDlhookDumpStates \
-    libDspIOProxy_stub \
     libEvrcSwCodec \
     libFS \
     libFileMux_proprietary \
@@ -2451,7 +2182,6 @@ PRODUCT_PACKAGES += \
     libHISCppAlgos \
     libIMTCppAlgos \
     libITT \
-    libMapService \
     libMiMotion \
     libMiPhotoFilter \
     libMiVDR \
@@ -2489,16 +2219,15 @@ PRODUCT_PACKAGES += \
     libQnnSystem \
     libQtiRilLoadable \
     libQtiSocket \
+    libRecordCNN \
     libSEGModel \
     libSNPE \
     libSNPESample \
-    libScenescape \
     libSensorsInterface \
     libSnpeHta \
     libSnpeHtpPrepare \
     libSnpeHtpV73CalculatorStub \
     libSnpeHtpV73Stub \
-    libStereoRectifyWrapper \
     libTrustedInputAIDL \
     libTrustedInputUtils \
     libTrustedUIAIDL \
@@ -2506,8 +2235,6 @@ PRODUCT_PACKAGES += \
     libVoiceSdk \
     libWlanServiceJni \
     libXMFaceHeadBodyTrack \
-    lib_AIVC_decoder \
-    lib_AIVC_encoder \
     lib_bt_aptx \
     lib_bt_ble \
     lib_bt_bundle \
@@ -2520,7 +2247,6 @@ PRODUCT_PACKAGES += \
     libadsp_default_listener \
     libadsprpc \
     libagm \
-    libagm_compress_plugin \
     libagm_mixer_plugin \
     libagm_pcm_plugin \
     libagmclient \
@@ -2528,20 +2254,26 @@ PRODUCT_PACKAGES += \
     libagmmixer \
     libaidenoiser \
     libaidenoiserv2 \
+    libar-acdb \
+    libar-gpr \
+    libar-gsl \
     libar-pal \
     libarmemlog \
-    libaudio_aidl_conversion_common_ndk_prebuilt \
+    libats \
+    libaudio_aidl_conversion_common_ndk_onyx \
     libaudio_log_utils \
+    libaudiochargerlistener \
     libaudiocloudctrl \
     libaudioplatformconverter.qti \
-    libaudioserviceexampleimpl \
+    libaudioserviceexampleimpl_onyx \
     libav_miwnsencoder \
     libbacklight-calib \
     libbase64 \
     libbatching \
+    libbatterylistener \
     libbitmlengine \
     libbitmlenginev2 \
-    libbluetooth_audio_session_aidl_prebuilt \
+    libbluetooth_audio_session_aidl_onyx \
     libbluetooth_audio_session_aidl_qti \
     libbluetooth_audio_session_qti \
     libbluetooth_audio_session_qti_2_1 \
@@ -2550,6 +2282,7 @@ PRODUCT_PACKAGES += \
     libc++_shared \
     libcacertclient \
     libcalculator \
+    libcamera2ndk_vendor \
     libcameraobserver \
     libcameraopt \
     libcamlog \
@@ -2592,12 +2325,6 @@ PRODUCT_PACKAGES += \
     libcneapiclient \
     libcneoplookup \
     libcneqmiutils \
-    libcodec2_soft_ac4dec \
-    libcodec2_soft_aivc_dec \
-    libcodec2_soft_aivc_enc \
-    libcodec2_soft_ddpdec \
-    libcodec2_store_dolby \
-    libcodec2_store_mi \
     libcom.qti.chinodeutils \
     libcom.xiaomi.attribute \
     libcom.xiaomi.debug \
@@ -2615,11 +2342,9 @@ PRODUCT_PACKAGES += \
     libcommonchiutils \
     libconfigdb \
     libcpion \
-    libcppbor_onyx \
+    libcustomva_intf \
     libcv_common \
-    libdapparamstorage \
     libdataitems \
-    libdeccfg \
     libdeflicker \
     libdemura_oem_plugin \
     libdfintf \
@@ -2634,13 +2359,7 @@ PRODUCT_PACKAGES += \
     libdisplayfeatureservice \
     libdisplayqos \
     libdisplayskuutils \
-    libdlbdsservice \
-    libdlbpreg \
-    libdmshal \
-    libdolbyclstc \
-    libdolbydecoderprocessor \
-    libdolbyeglcore \
-    libdolbyottcameracontrol \
+    libdmap_consent_sdk \
     libdpp_manager \
     libdpps \
     libdrmfs \
@@ -2657,13 +2376,13 @@ PRODUCT_PACKAGES += \
     libesesbprovision \
     libeva \
     libeva_util \
-    libeye_tracking_dsp_sample_stub \
     libfastcrc \
     libfastcvdsp_stub \
     libfastcvopt \
     libfastmessage \
     libfeutils \
     libfilefinder \
+    libfmpal \
     libgame_enhance \
     libgdtap \
     libgeofencing \
@@ -2677,7 +2396,6 @@ PRODUCT_PACKAGES += \
     libgralloccore \
     libgrallocutils \
     libgsl \
-    libhalide_hexagon_host \
     libhdcp1prov \
     libhdcp2p2prov \
     libhdcpsrm \
@@ -2688,8 +2406,10 @@ PRODUCT_PACKAGES += \
     libhdrdynamic \
     libhdrdynamicootf \
     libhdrvivid \
+    libhfp_pal \
     libhistogram \
     libhme \
+    libhotword_intf \
     libhta_hexagon_runtime_qnn \
     libhta_hexagon_runtime_snpe \
     libhwliqinterface2 \
@@ -2697,7 +2417,6 @@ PRODUCT_PACKAGES += \
     libiccprofile \
     libidl \
     libintervmipc \
-    libipanat \
     libipebpsstriping \
     libipebpsstriping170 \
     libipebpsstriping480 \
@@ -2705,7 +2424,11 @@ PRODUCT_PACKAGES += \
     libisphwsetting \
     libizat_client_api \
     libizat_core \
+    libjnihelper \
+    libjpegdecoder_onyx \
+    libjpegencoder_onyx \
     libkcl \
+    libkcl_a730 \
     libkernelmanager \
     libkeymasterdeviceutils \
     libkeymasterprovision \
@@ -2716,6 +2439,7 @@ PRODUCT_PACKAGES += \
     libllvm-glnext \
     libllvm-qcom \
     libllvm-qgl \
+    libloadalgo_stub \
     libloadtrusteduiapp \
     libloc_api_v02 \
     libloc_api_wds \
@@ -2724,6 +2448,7 @@ PRODUCT_PACKAGES += \
     libloc_eng_hub \
     libloc_mq_client \
     libloc_qwes_iface \
+    libloc_ril_client \
     libloc_socket \
     libloc_util \
     liblocation_api \
@@ -2738,13 +2463,15 @@ PRODUCT_PACKAGES += \
     liblowi_common \
     liblowi_wifihal \
     liblqe \
+    liblx-ar_util \
+    liblx-osal \
     libmapdata_api \
     libmapperutils \
     libmcs \
     libmctfengine_stub \
     libmdmdetect \
     libmdsprpc \
-    libmediautils_vendor_vendor \
+    libmediautils_vendor_onyx \
     libmemutils \
     libmfGhostDetection \
     libmfec \
@@ -2775,7 +2502,6 @@ PRODUCT_PACKAGES += \
     libmisfpsop \
     libmisight \
     libmisops \
-    libmisoundfx_aidl_ext \
     libmisoundsa \
     libmlremosaicengine \
     libmm-hdcpmgr \
@@ -2790,6 +2516,7 @@ PRODUCT_PACKAGES += \
     libmmrtpdecoder_vendor \
     libmmrtpencoder_vendor \
     libmpbase \
+    libnative-api \
     libnicm \
     libnicm_dsi \
     libnicm_interface \
@@ -2799,6 +2526,7 @@ PRODUCT_PACKAGES += \
     libnicm_recovery \
     libnicm_utils \
     libnicm_vh \
+    libnova \
     libnspdependencyservice \
     libnspdescriptorhandlerservice \
     libnspdiagservice \
@@ -2831,10 +2559,11 @@ PRODUCT_PACKAGES += \
     libos \
     libpal_net_if \
     libpalclient \
+    libpaleventnotifier \
+    libpalipcservice \
     libpdmapper \
     libpdnotifier \
     libperipheral_client \
-    libpolygon \
     libpostprocinfo \
     libproj_qmot_tracker \
     libproj_sot \
@@ -2858,19 +2587,14 @@ PRODUCT_PACKAGES += \
     libqcodec2_basecodec \
     libqcodec2_core \
     libqcodec2_cvpfilter \
-    libqcodec2_dolbydecoderfilter \
     libqcodec2_filterbase \
     libqcodec2_hooks \
     libqcodec2_imgtxrfilter \
     libqcodec2_mockfilter \
     libqcodec2_platform \
-    libqcodec2_psfilter \
-    libqcodec2_rffilter \
-    libqcodec2_srfilter \
     libqcodec2_streaminteg_filter \
     libqcodec2_utils \
     libqcodec2_v4l2codec \
-    libqcodec2_videofrcfilter \
     libqcrilDataModule \
     libqcrilNr \
     libqcrilNrCellInfoModule \
@@ -2927,13 +2651,6 @@ PRODUCT_PACKAGES += \
     libqtigefar \
     libqtikeymaster4 \
     libqtikeymint \
-    libqvr_cam_cdsp_driver_stub \
-    libqvr_cdsp_driver_stub \
-    libqvr_eyetracking_plugin \
-    libqvrcamera_client.qti \
-    libqvrcameraplayback \
-    libqvrservice \
-    libqvrservice_client.qti \
     libqwes \
     librcc \
     librcmask \
@@ -2971,9 +2688,7 @@ PRODUCT_PACKAGES += \
     libsimulation \
     libslimclient \
     libsmemlog \
-    libsn100u_fw \
     libsn220u_fw \
-    libsn300u_fw \
     libsnapdragoncolor-manager \
     libsnapdragoncolor-qdcm \
     libsndcardparser \
@@ -2988,19 +2703,18 @@ PRODUCT_PACKAGES += \
     libsnsdiaglog \
     libsnsutils \
     libsoc_helper \
-    libspatializerparamstorage \
+    libsoc_helper_jni \
     libspcom \
     libspl \
     libssc_default_listener \
     libssd \
-    libstnfc-auth \
     libstnfc-streset \
     libsubsystem_control \
     libswregistrationalgo \
-    libswspatializeraidl_ext \
     libsynergy_loc_api \
     libsynx \
     libsys_info_cache \
+    libsysmon_cdsp_skel \
     libsystem_health_mon2 \
     libtaautoload \
     libtensorflowlite_c \
@@ -3016,12 +2730,13 @@ PRODUCT_PACKAGES += \
     libtlpd_crypto \
     libtlpd_internal \
     libtlpd_logger \
-    libtracker_6dof_impl \
     libtrustedapploader \
     libubifocus \
     libubwcp \
+    libultrahdr_onyx \
     libultrasound_notify \
     libvideoml \
+    libvideoservice_utils \
     libvideotxr \
     libvideoutils \
     libvmfilexfer \
@@ -3056,7 +2771,6 @@ PRODUCT_PACKAGES += \
     libwfduibcsrcinterface_vendor \
     libwfdutils_proprietary \
     libwifiobserver \
-    libwindns \
     libwms \
     libwqe \
     libxiaomi_qcril \
@@ -3064,25 +2778,8 @@ PRODUCT_PACKAGES += \
     libxlog \
     libxml \
     libxpan_wifi_hal \
-    libxrcommconnection \
-    libxrcommcoreutils \
-    libxrcommdiscoveryservice \
-    libxrcommdiscoveryservice2 \
-    libxrcommdiscoveryservice2_client \
-    libxrcommdiscoveryservice_client \
-    libxrcommdpqaservice \
-    libxrcommdpqaservice_client \
-    libxrcommnetworkservice \
-    libxrcommnetworkservice_client \
-    libxrcommservice_client \
-    libxrcommtimerservice \
-    libxrcommtimerservice_client \
-    libxrcommtrafficshaperservice \
-    libxrcommtrafficshaperservice_client \
-    libxrcommwirelesslinkconfigservice \
-    libxrcommwirelesslinkconfigservice_client \
-    libxrcommwpacliwrapper \
     libxtadapter \
+    libdrmclearkeyplugin \
     qcrilInterfaces \
     qcrilIntermodulemsgs \
     qcrilMarshal \
@@ -3136,11 +2833,15 @@ PRODUCT_PACKAGES += \
     libvpt_action_recognition \
     libworker_pool \
     sensors.qsh \
+    libaudiopreprocessing \
     libbundleaidl \
-    libdlbvolaidl \
+    libbundlewrapper \
+    libdownmix \
     libdownmixaidl \
     libdynamicsprocessingaidl \
-    libhwdapaidl \
+    libdynproc \
+    libeffectproxy \
+    libldnhncr \
     libloudnessenhanceraidl \
     libmiwndnsprocessingaidl \
     libqcompostprocbundle \
@@ -3148,14 +2849,9 @@ PRODUCT_PACKAGES += \
     libqcomvoiceprocessing \
     libquasar \
     libreverbaidl \
-    libspatializeraidl \
-    libswgamedapaidl \
-    libswspatializeraidl \
+    libvisualizer \
     libvisualizeraidl \
     libvolumelistener \
-    vendor.dolby.dms-V1-ndk \
-    vendor.dolby.hardware.dms@2.0 \
-    vendor.hardware.vibratorfeature.IVibratorExt-V1-ndk_platform \
     vendor.libdpmctmgr \
     vendor.libdpmfdmgr \
     vendor.libdpmframework \
@@ -3170,8 +2866,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.diaghal-V1-ndk_vendor \
     vendor.qti.diaghal@1.0_vendor \
     vendor.qti.esepowermanager@1.0 \
-    vendor.qti.gnss-V7-ndk \
-    vendor.qti.gnss-service \
     vendor.qti.hardware.ListenSoundModelAidl-V1-ndk \
     vendor.qti.hardware.bluetooth.xpanprovider-V1-ndk \
     vendor.qti.hardware.bluetooth_sar-V1-ndk \
@@ -3200,7 +2894,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.data.lce@1.0_vendor \
     vendor.qti.hardware.data.lceaidlservice-V1-ndk_vendor \
     vendor.qti.hardware.data.qmiaidlservice-V1-ndk_vendor \
-    vendor.qti.hardware.display.snapalloc-impl \
     vendor.qti.hardware.dpmaidlservice-V1-ndk_vendor \
     vendor.qti.hardware.dsp-V1-ndk \
     vendor.qti.hardware.embmsslaidl-V2-ndk_vendor \
@@ -3214,7 +2907,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.qseecom-V1-ndk \
     vendor.qti.hardware.qseecom@1.0 \
     vendor.qti.hardware.qteeconnector@1.0 \
-    vendor.qti.hardware.qxr-V2-ndk \
     vendor.qti.hardware.radio.am-V1-ndk \
     vendor.qti.hardware.radio.am@1.0_vendor \
     vendor.qti.hardware.radio.atcmdfwd@1.0 \
@@ -3261,7 +2953,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.sigma_miracast_aidl-V1-ndk \
     vendor.qti.hardware.soter-V1-ndk \
     vendor.qti.hardware.trustedui-V1-ndk \
-    vendor.qti.hardware.vpp-V1-ndk \
+    vendor.qti.hardware.vpp-V1-ndk_vendor \
     vendor.qti.hardware.vpp@1.1 \
     vendor.qti.hardware.vpp@1.2 \
     vendor.qti.hardware.vpp@1.3 \
@@ -3296,10 +2988,10 @@ PRODUCT_PACKAGES += \
     vendor.qti.qesdhalaidl-V2-ndk \
     vendor.qti.qesdsys-V3-ndk \
     vendor.qti.qesdsys-V4-ndk \
-    vendor.qti.sla.service-V1-ndk \
     vendor.qti.syshealthmon-V1-ndk \
     vendor.xiaomi.hardware.aidl.intentaware-V1-impl \
     vendor.xiaomi.hardware.aidl.intentaware-V1-ndk_platform \
+    vendor.xiaomi.hardware.aidl.mtdservice-V1-ndk \
     vendor.xiaomi.hardware.aidl.mtdservice-V1-ndk_platform \
     vendor.xiaomi.hardware.aidlbgservice-V1-impl \
     vendor.xiaomi.hardware.aidlbgservice-V1-ndk \
@@ -3316,10 +3008,12 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.displayfeature_aidl-V2-ndk \
     vendor.xiaomi.hardware.fx.tunnel-V1-ndk \
     vendor.xiaomi.hardware.micharge-V2-ndk \
-    vendor.xiaomi.hardware.mlipay-V1-ndk_platform \
+    vendor.xiaomi.hardware.mlipay-V1-ndk \
     vendor.xiaomi.hw.touchfeature-V1-ndk_vendor \
     vendor.xiaomi.sensor.camera-V1-ndk \
     vendor.xiaomi.sensor.citsensorservice-V1-ndk \
+    activity.napp_header \
+    activity \
     chre_qsh_shim \
     libCalculator_skel \
     libDspIOProxy_skel \
@@ -3331,20 +3025,16 @@ PRODUCT_PACKAGES += \
     libadsp_jpege_skel \
     libarc_htp_driver_skel \
     libdsp_streamer_binning \
-    libdsp_streamer_qvrcam_receiver \
-    libeye_tracking_dsp_sample_skel \
     libhalide_hexagon_remote_skel \
     libhme_dsp_skel \
     libmctfengine_skel \
     libmialgo_basic_cdsp_skel \
     libmialgo_rfs_cdsp_skel \
     libmlawbpostproc_dsp_skel \
-    libqvr_3dof_tracker_skel \
-    libqvr_cam_dsp_driver_skel \
-    libqvr_dsp_driver_skel \
     libtracker_6dof_skel_8450 \
     nearby.napp_header \
     nearby \
+    libqesdk_ndk_platform.qti \
     anc.hal \
     com.qti.actuator.onyx_aac_imx882_gt9764ber_wide_ii_actuator \
     com.qti.actuator.onyx_ofilm_imx882_gt9764ber_wide_i_actuator \
@@ -3387,6 +3077,7 @@ PRODUCT_PACKAGES += \
     com.xiaomi.plugin.frontbokehpreview \
     com.xiaomi.plugin.gainmap \
     com.xiaomi.plugin.gainmapPostProc \
+    com.xiaomi.plugin.heifedit \
     com.xiaomi.plugin.jpegrAggr \
     com.xiaomi.plugin.ldc \
     com.xiaomi.plugin.memcpy \
@@ -3417,6 +3108,7 @@ PRODUCT_PACKAGES += \
     com.xiaomi.plugin.tsskinbeautifier \
     com.xiaomi.plugin.videofilter \
     com.xiaomi.plugin.watermark \
+    com.xiaomi.plugin.yuv2Heic \
     com.xiaomi.zsl.aihighlight \
     com.xiaomi.zsl.bokehrawhdr \
     com.xiaomi.zsl.bokehsmartae \
@@ -3432,7 +3124,6 @@ PRODUCT_PACKAGES += \
     com.xiaomi.zsl.nightmotionzslbanding \
     com.xiaomi.zsl.single \
     com.xiaomi.zsl.sr \
-    ese_weaver_odm \
     consumerir.qcom \
     displayfeature.default \
     fingerprint.goodix_fod.default \
@@ -3462,9 +3153,9 @@ PRODUCT_PACKAGES += \
     libarcsoft_turbo_hdr_grf \
     libarcsoft_turbo_hdr_raw \
     libaudioroute_ext \
-    libauthsecret_empty-nxp_odm \
     libawcal \
     libcamera_scene \
+    libcameraheif \
     libclient2slpi.notifier \
     libcolortempmode \
     libcrussp \
@@ -3476,12 +3167,8 @@ PRODUCT_PACKAGES += \
     libfpsmonitor \
     libgf_hal \
     libhandgesture.arcsoft \
+    libheichal \
     libhistprocess \
-    libjc_keymint-nxp_odm \
-    libjc_keymint_transport_nxp_odm \
-    libkeymint_empty-nxp_odm \
-    libkeymint_empty-thales_odm \
-    libkeymint_transport_empty-nxp_odm \
     libmi-stc-HW-modulate \
     libmiBrightness \
     libmiClstc \
@@ -3524,15 +3211,13 @@ PRODUCT_PACKAGES += \
     libtruetone \
     libvideomode \
     libwa_widelens_undistort \
-    libweaver_empty-nxp_odm \
-    libweaver_empty-thales_odm \
+    libwindns \
     libwvkeybox \
     libxmi_slow_motion_mein \
-    nfc_nci.nqx.default.hw \
-    nfc_nci.st21nfc.st \
     sensors.touch.detect \
     sensors.ultrasoundproximity \
-    vendor.dolby.dvs-V1-ndk \
+    vendor.qti.gnss-V7-ndk \
+    vendor.qti.gnss-service \
     vendor.xiaomi.hardware.mediaeventgatherservice-V1-ndk \
     vendor.xiaomi.hardware.seccam-V1-ndk \
     capi_elus_rx \
@@ -3546,8 +3231,10 @@ PRODUCT_PACKAGES += \
     CneApp \
     IWlanService \
     TimeService \
+    com.qualcomm.qti.gpudrivers.sun.api35 \
     HotwordEnrollmentXGoogleHEXAGON_WIDEBAND \
     HotwordEnrollmentYGoogleHEXAGON_WIDEBAND \
+    FrameworksUtilsSysService \
     androidx.camera.extensions.impl \
     com.android.hotwordenrollment.common.util \
     ImsRtpService-aidl.xml \
@@ -3563,6 +3250,7 @@ PRODUCT_PACKAGES += \
     android.hardware.secure_element.xml \
     android.hardware.security.keymint-service-qti.xml \
     atfwd-saidl.xml \
+    audioeffectservice_qti.xml \
     bluetooth-finder.xml \
     bluetooth_hci.xml \
     bluetooth_sar.xml \
@@ -3574,31 +3262,28 @@ PRODUCT_PACKAGES += \
     dataconnection-saidl.xml \
     datafactoryservice-saidl.xml \
     deviceinfo-saidl.xml \
-    dms-service.xml \
     dpm-saidl.xml \
     imsdcservice-saidl.xml \
     manifest_audio_qti_services.xml \
+    manifest_audiocorehal_default.xml \
     manifest_btaudiocoreservices_qti.xml \
     mapper.qti.xml \
-    media_c2_mi.xml \
     mwqem-saidl.xml \
     qasr_vintf.xml \
     qcrilhook-saidl.xml \
     qesdk-manager.xml \
     qms-saidl.xml \
+    qspa-modem.xml \
     qtiradio-saidl.xml \
     secure_element-service.xml \
-    vendor.dolby.media.c2-default-service-dax.xml \
+    soundtrigger.qti.xml \
     vendor.qti.camera.provider.xml \
     vendor.qti.diag.hal.service.xml \
-    vendor.qti.gnss-service.xml \
     vendor.qti.hardware.bluetooth.xpanprovider.xml \
     vendor.qti.hardware.capabilityconfigstore-service.xml \
     vendor.qti.hardware.data.connectionaidl.xml \
     vendor.qti.hardware.data.iwlandata.xml \
-    vendor.qti.hardware.display.allocator-service.xml \
     vendor.qti.hardware.display.composer-service3_v3.xml \
-    vendor.qti.hardware.display.demura-service.xml \
     vendor.qti.hardware.dsp-service.xml \
     vendor.qti.hardware.embmssl.xml \
     vendor.qti.hardware.hexlp-service.xml \
@@ -3626,14 +3311,10 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.displayfeature_aidl-service.xml \
     vendor.xiaomi.hardware.micharge.xml \
     vendor.xiaomi.hardware.quickcamera.xml \
-    vendor.xiaomi.hardware.vibratorfeature.service.xml \
     vendor.qti.qesdsys.service.xml \
-    android.hardware.security.keymint-service.strongbox.xml \
-    android.hardware.security.sharedsecret-service.strongbox.xml \
-    dvs-aidl-service.xml \
-    manifest_nxp_nfc.xml \
     manifest_vendor.xiaomi.hardware.mlipay.xml \
     misensor_camera.xml \
+    vendor.qti.gnss-service.xml \
     vendor.xiaomi.hw.touchfeature-service.xml \
     vendor.xiaomi.sensor.citsensorservice.aidl.xml \
     SoterProvisioningTool \
@@ -3648,6 +3329,7 @@ PRODUCT_PACKAGES += \
     batterysecret \
     cdsprpcd \
     cnd \
+    cnss-daemon_onyx \
     cplay \
     diag-router \
     displayfeature \
@@ -3655,27 +3337,20 @@ PRODUCT_PACKAGES += \
     edgnss-daemon \
     embmsslServer \
     engine-service \
-    feature_enabler_client \
     hdcp1prov \
     hdcp2p2prov \
     hexlpservice \
     hlosminkdaemon \
     android.hardware.bluetooth@aidl-service-qti \
-    android.hardware.contexthub-service.qmi \
     android.hardware.gatekeeper-service-qti \
-    android.hardware.media.c2-mi-service \
     android.hardware.secure_element-service.qti \
     android.hardware.security.keymint-service-qti \
+    audiohalservice.qti_onyx \
     qcrilNrd \
-    qvrservice \
-    vendor.dolby.dms.service \
-    vendor.dolby.media.c2-default-service-dax \
     vendor.qti.camera.provider-service_64 \
     vendor.qti.hardware.capabilityconfigstore-service \
-    vendor.qti.hardware.display.allocator-service \
     vendor.qti.hardware.display.color-service \
     vendor.qti.hardware.display.composer-service_onyx \
-    vendor.qti.hardware.display.demura-service \
     vendor.qti.hardware.minkipcbinder@1.0-service \
     vendor.qti.hardware.qseecom@1.0-service \
     vendor.qti.hardware.sensorscalibrate-service \
@@ -3683,17 +3358,15 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.trustedui-aidl-service-qti \
     vendor.qti.media.c2@1.0-service \
     vendor.qti.media.c2audio@1.0-service \
-    vendor.qti.sla.service@2.0-service \
     vendor.xiaomi.hardware.displayfeature_aidl-service \
     vendor.xiaomi.hardware.micharge-service \
-    vendor.xiaomi.hardware.vibratorfeature.service \
     ims-dataservice-daemon \
     ims_rtp_daemon \
     imsdaemon \
     init.qcom.sensors \
-    init.qcrild \
     init.qti.media \
     init.qti.qcv \
+    init.xiaomi.modem \
     irsc_util \
     ks \
     loc_launcher \
@@ -3701,37 +3374,33 @@ PRODUCT_PACKAGES += \
     mi_thermald \
     mlid \
     nicmd \
-    nqnfcinfo \
     nv_mac \
     pd-mapper \
     pm-proxy \
     pm-service \
-    pnscr \
     port-bridge \
     ppd \
     qcc-vendor \
     qdcmss \
     qesdk-manager \
     qesdk-secmanager \
+    qguard \
     qmipriod \
     qms \
     qrtr-cfg \
     qrtr-lookup \
     qrtr-ns \
     qsap_dcfd \
-    qsap_qapeservice \
     qsap_sensors \
-    qsap_voiceui \
     qseecomd \
     qti \
-    qvrdatalogger \
-    qvrservicetest \
+    qtigetprop \
+    qtisetprop \
     qwes_cli \
     qwesd \
     rmt_storage \
     sensors.qti \
     shsusrd \
-    slad \
     slim_daemon \
     sscrpcd \
     ssgqmigd \
@@ -3741,6 +3410,8 @@ PRODUCT_PACKAGES += \
     thermal-engine-v2 \
     time_daemon \
     tlpd \
+    trusteduilistener \
+    ubwcconvert \
     vendor.dpmd \
     vendor.qti.diag \
     vendor.qti.hardware.soter-provision \
@@ -3750,11 +3421,6 @@ PRODUCT_PACKAGES += \
     wifidisplayhalservice \
     xtra-daemon \
     xtwifi-client \
-    android.hardware.authsecret-service.nxp-qti_odm \
-    android.hardware.nqnfc-service.nxp \
-    android.hardware.security.keymint-service.strongbox-nxp_odm \
-    android.hardware.weaver-service.nxp-qti_odm \
-    dvs-aidl-service \
     misensor_camera \
     vendor.xiaomi.hw.touchfeature-service \
     vendor.xiaomi.sensor.citsensorservice.aidl \
@@ -3766,5 +3432,4 @@ PRODUCT_PACKAGES += \
     vendor_lib64_camera_aon_front_i_1_pb \
     vendor_lib64_libEGL_adreno_so \
     vendor_lib64_libGLESv2_adreno_so \
-    vendor_lib64_libq3dtools_adreno_so \
-    vendor_lib64_soundfx_libmisoundfx_aidl_so
+    vendor_lib64_libq3dtools_adreno_so
