@@ -25147,6 +25147,24 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libsn100u_fw",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libsn100u_fw.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libsn220u_fw",
     owner: "xiaomi",
     strip: {
@@ -25156,6 +25174,24 @@ cc_prebuilt_library_shared {
         android_arm64: {
             srcs: [
                 "proprietary/vendor/lib64/libsn220u_fw.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libsn300u_fw",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libsn300u_fw.so",
             ],
         },
     },
@@ -42040,42 +42076,6 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-    name: "cnss-daemon_onyx",
-    stem: "cnss-daemon",
-    owner: "xiaomi",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/cnss-daemon",
-            ],
-            shared_libs: [
-                "libcutils",
-                "liblog",
-                "libqmi_cci",
-                "libqmi_common_so",
-                "libnl",
-                "libcld80211",
-                "libperipheral_client",
-                "libmdmdetect",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    overrides: [
-        "cnss-daemon",
-    ],
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
     name: "cplay",
     owner: "xiaomi",
     target: {
@@ -43234,6 +43234,54 @@ cc_prebuilt_binary {
 }
 
 sh_binary {
+    name: "init.kernel.post_boot-tuna",
+    owner: "xiaomi",
+    src: "proprietary/vendor/bin/init.kernel.post_boot-tuna.sh",
+    filename: "init.kernel.post_boot-tuna.sh",
+    soc_specific: true,
+}
+
+sh_binary {
+    name: "init.kernel.post_boot-tuna_1_3_2_1",
+    owner: "xiaomi",
+    src: "proprietary/vendor/bin/init.kernel.post_boot-tuna_1_3_2_1.sh",
+    filename: "init.kernel.post_boot-tuna_1_3_2_1.sh",
+    soc_specific: true,
+}
+
+sh_binary {
+    name: "init.kernel.post_boot-tuna_2_2_2_1",
+    owner: "xiaomi",
+    src: "proprietary/vendor/bin/init.kernel.post_boot-tuna_2_2_2_1.sh",
+    filename: "init.kernel.post_boot-tuna_2_2_2_1.sh",
+    soc_specific: true,
+}
+
+sh_binary {
+    name: "init.kernel.post_boot-tuna_2_3_1_1",
+    owner: "xiaomi",
+    src: "proprietary/vendor/bin/init.kernel.post_boot-tuna_2_3_1_1.sh",
+    filename: "init.kernel.post_boot-tuna_2_3_1_1.sh",
+    soc_specific: true,
+}
+
+sh_binary {
+    name: "init.kernel.post_boot-tuna_2_3_2_0",
+    owner: "xiaomi",
+    src: "proprietary/vendor/bin/init.kernel.post_boot-tuna_2_3_2_0.sh",
+    filename: "init.kernel.post_boot-tuna_2_3_2_0.sh",
+    soc_specific: true,
+}
+
+sh_binary {
+    name: "init.kernel.post_boot-tuna_default_2_3_2_1",
+    owner: "xiaomi",
+    src: "proprietary/vendor/bin/init.kernel.post_boot-tuna_default_2_3_2_1.sh",
+    filename: "init.kernel.post_boot-tuna_default_2_3_2_1.sh",
+    soc_specific: true,
+}
+
+sh_binary {
     name: "init.qcom.sensors",
     owner: "xiaomi",
     src: "proprietary/vendor/bin/init.qcom.sensors.sh",
@@ -43476,6 +43524,32 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    name: "nqnfcinfo",
+    owner: "xiaomi",
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/bin/nqnfcinfo",
+            ],
+            shared_libs: [
+                "libcutils",
+                "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    strip: {
+        none: true,
+    },
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_binary {
     name: "nv_mac",
     owner: "xiaomi",
     target: {
@@ -43581,6 +43655,36 @@ cc_prebuilt_binary {
                 "libqmi_csi",
                 "libmdmdetect",
                 "libperipheral_client",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    strip: {
+        none: true,
+    },
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_binary {
+    name: "pnscr",
+    owner: "xiaomi",
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/bin/pnscr",
+            ],
+            shared_libs: [
+                "libbase",
+                "libcutils",
+                "libhardware",
+                "liblog",
+                "libutils",
+                "libhardware_legacy",
                 "libc++",
                 "libc",
                 "libm",
